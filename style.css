@@ -1,0 +1,95 @@
+/* Reset Dasar */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #ffffff;
+}
+
+.login-container {
+    text-align: center;
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+}
+
+/* Bagian Header & Logo */
+.logo-section {
+    margin-bottom: 35px;
+}
+
+.logo-section h1 {
+    margin: 0;
+    font-size: 28px;
+    color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+}
+
+.subtitle {
+    color: #666;
+    font-size: 14px;
+    margin-top: 5px;
+    font-weight: 500;
+}
+
+/* Styling Form */
+.form-group {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 8px;
+    color: #333;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 12px 15px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-sizing: border-box;
+    font-size: 14px;
+    outline: none;
+    transition: border-color 0.3s;
+}
+
+.form-group input:focus {
+    border-color: #2F80ED;
+}
+
+.form-group input::placeholder {
+    color: #bbb;
+}
+
+/* Tombol Login dengan Gradasi */
+.login-button {
+    width: 55%;
+    padding: 12px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    background: linear-gradient(to right, #48cae4, #0077b6); /* Gradasi Biru-Hijau Muda */
+    transition: transform 0.2s, opacity 0.3s;
+}
+
+.login-button:hover {
+    opacity: 0.9;
+    transform: translateY(-1px);
+}
+
+.login-button:active {
+    transform: translateY(0);
+}

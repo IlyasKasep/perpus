@@ -1,0 +1,72 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    background-color: white;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+    border: 1px solid #e0e0e0;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+h2 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: #333;
+}
+
+/* Styling Tabel */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+th {
+    text-align: left;
+    padding: 12px 15px;
+    border-bottom: 2px solid #eee;
+    color: #555;
+    font-size: 14px;
+}
+
+td {
+    padding: 12px 15px;
+    border-bottom: 1px solid #f1f1f1;
+    color: #666;
+    font-size: 13px;
+}
+
+/* Baris selang-seling (optional, untuk keterbacaan) */
+tr:hover {
+    background-color: #fafafa;
+}
+
+/* Tombol Hapus */
+.btn-hapus {
+    background-color: #ff3b30; /* Merah sesuai gambar */
+    color: white;
+    border: none;
+    padding: 6px 15px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: bold;
+    transition: background 0.3s;
+}
+
+.btn-hapus:hover {
+    background-color: #d32f2f;
+}
+
+/* Penyelarasan teks untuk kolom tertentu */
+.text-center {
+    text-align: center;
+}
